@@ -57,6 +57,7 @@ class IQOption:
     def timeframe_to_seconds(self,timeframe):
         # Timeframe dictionary
         convert = {
+            
             "S30": 30,
             "M1": 60,
             "M2": 120,
